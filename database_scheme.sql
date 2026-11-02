@@ -19,6 +19,6 @@ CREATE TABLE IF NOT EXISTS projects (
 );
 -- Akun Default (Password: password123)
 INSERT INTO users (nama, email, password, role) VALUES
-('Super Admin Stella', 'superadmin@stella.sch.id', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'super_admin'),
-('Admin Stella', 'admin@stella.sch.id', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'admin'),
-('Siswa Contoh', 'siswa@stella.sch.id', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'siswa');
+('Super Admin Stella', 'superadmin@stella.sch.id', '$2y$10$MsDSlB4j.CvBGhGsZfGWbeDPx.obZ06GKlDYkx.f2CcHzER/m7Rcq', 'super_admin'),
+('Admin Stella', 'admin@stella.sch.id', '$2y$10$MsDSlB4j.CvBGhGsZfGWbeDPx.obZ06GKlDYkx.f2CcHzER/m7Rcq', 'admin'),
+('Siswa Contoh', 'siswa@stella.sch.id', '$2y$10$MsDSlB4j.CvBGhGsZfGWbeDPx.obZ06GKlDYkx.f2CcHzER/m7Rcq', 'siswa');
