@@ -13,7 +13,8 @@ if ($keyword !== '') {
                            FROM projects 
                            JOIN users ON projects.user_id = users.id 
                            WHERE projects.nama_project LIKE :keyword 
-                              OR projects.deskripsi LIKE :keyword 
+                              OR projects.deskripsi LIKE :keyword
+                              OR users.nama LIKE :keyword 
                            ORDER BY projects.created_at DESC");
     $stmt->execute([':keyword' => "%$keyword%"]);
     $projects = $stmt->fetchAll();
