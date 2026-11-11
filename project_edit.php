@@ -50,6 +50,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <title>Edit Karya</title>
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/auth.css">
+    <link rel="icon" type="image/jpeg" href="icon/stella_icon.jpg" />
     <style>
     body { font-family: sans-serif; background: #f4f6f9; padding: 20px; }
     .form-card { max-width: 500px; margin: auto; background: white; padding: 20px;

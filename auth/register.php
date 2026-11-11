@@ -26,6 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <title>Document</title>
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/auth.css">
+    <link rel="icon" type="image/jpeg" href="../icon/stella_icon.jpg" />
     <style>
         body { 
             font-family: sans-serif; 

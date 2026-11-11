@@ -30,6 +30,7 @@ $users = $pdo->query("SELECT * FROM users ORDER BY role ASC")->fetchAll();
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/form.css">
     <link rel="stylesheet" href="../assets/css/admin.css">
+    <link rel="icon" type="image/jpeg" href="../icon/stella_icon.jpg" />
     <style>
     body { font-family: sans-serif; padding: 20px; background: #f8f9fa; }
     table { width: 100%; border-collapse: collapse; background: white; margin-top: 15px; }

@@ -44,6 +44,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <title>Tambah Karya - Etalase Digital Stella</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/form.css">
+    <link rel="icon" type="image/jpeg" href="icon/stella_icon.jpg" />
 </head>
 <body>
 <div class="form-container">
